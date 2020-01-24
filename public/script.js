@@ -1,5 +1,5 @@
 
-const socket = io('http://localhost')
+const socket = io.connect('http://localhost');
 const messageContainer = document.getElementById('message-container')
 
 const messageForm = document.getElementById('send-container')
