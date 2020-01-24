@@ -1,5 +1,5 @@
 
-const socket = io('https://pakaplanner.herokuapp.com/')
+const socket = require('socket.io')(app)
 const messageContainer = document.getElementById('message-container')
 
 const messageForm = document.getElementById('send-container')
