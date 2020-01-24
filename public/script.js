@@ -1,5 +1,5 @@
 
-const socket = require('socket.io')(app)
+const socket = io('http://localhost')
 const messageContainer = document.getElementById('message-container')
 
 const messageForm = document.getElementById('send-container')
