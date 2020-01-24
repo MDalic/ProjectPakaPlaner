@@ -1,5 +1,5 @@
 
-const socket = io('http://88.207.56.112:3000')
+const socket = io('https://pakaplanner.herokuapp.com/')
 const messageContainer = document.getElementById('message-container')
 
 const messageForm = document.getElementById('send-container')
